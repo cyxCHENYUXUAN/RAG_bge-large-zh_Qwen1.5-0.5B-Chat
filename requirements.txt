@@ -1,0 +1,32 @@
+# 智能文档检索系统 - 基于嵌入向量的文档处理与搜索应用
+
+# Basic dependencies
+fastapi>=0.103.1
+uvicorn>=0.23.2
+python-multipart>=0.0.6
+pydantic>=2.4.2
+starlette>=0.27.0
+
+# Document processing
+PyPDF2>=3.0.1
+python-docx>=0.8.11
+langdetect>=1.0.9
+textract>=1.6.5,<1.7.0
+pywin32>=306; platform_system=="Windows"
+
+# Vector Embedding and Similarity Search
+torch>=2.0.1
+transformers>=4.32.1
+numpy>=1.24.4
+pandas>=2.0.0
+scikit-learn>=1.2.2
+chromadb>=0.4.15
+sentence-transformers>=2.2.2
+
+# Used for Chinese word segmentation
+jieba>=0.42.1
+
+# LLM related
+accelerate>=0.23.0
+bitsandbytes>=0.41.1
+optimum>=1.12.0
