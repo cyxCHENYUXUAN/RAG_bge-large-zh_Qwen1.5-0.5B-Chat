@@ -29,7 +29,7 @@
 │   ├── index.html          # 主页面
 │   └── static/             # 静态资源 (JS/CSS)
 │
-├── tests/                  # 测试目录
+├── result_PNG/                  # 界面效果截图目录
 │   └── ...
 │
 ├── start_local.py          # 本地启动脚本
