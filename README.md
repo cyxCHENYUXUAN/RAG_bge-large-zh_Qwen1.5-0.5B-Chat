@@ -34,7 +34,6 @@
 │
 ├── start_local.py          # 本地启动脚本
 ├── requirements.txt        # 依赖列表 (含torch, transformers, accelerate, chromadb)
-├── SETUP_LOCAL.md          # 本地部署指南
 └── README.md               # 项目说明 (本文档)
 ```
 
